@@ -10,6 +10,6 @@ number in the formatted sentence that's already there.
 '''
 
 #code starts here
-number = input("Enter a number: ")
+number = int(input("Enter a number: "))
 print("Ten times your number is", int(10 * number))
 print("Ninety-nine more than your number is", int(99 + number))
